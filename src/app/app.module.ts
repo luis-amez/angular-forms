@@ -7,6 +7,7 @@ import { FormSkuComponent } from './form-sku/form-sku.component';
 import { FormSkuWithBuilderComponent } from './form-sku-with-builder/form-sku-with-builder.component';
 import { FormWithValidationsExplicitComponent } from './form-with-validations-explicit/form-with-validations-explicit.component';
 import { FormWithEventsComponent } from './form-with-events/form-with-events.component';
+import { FormNgModelComponent } from './form-ng-model/form-ng-model.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormWithEventsComponent } from './form-with-events/form-with-events.com
     FormSkuComponent,
     FormSkuWithBuilderComponent,
     FormWithValidationsExplicitComponent,
-    FormWithEventsComponent
+    FormWithEventsComponent,
+    FormNgModelComponent
   ],
   imports: [
     BrowserModule,
